@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calc.css">
+    <link rel="stylesheet" href="./style.css" type="text/css" media="all" />
+  </head>
+  <body>
+    <div class="calculator noselect">
+      <input id="display" type="text" name="display" disabled>
+      
+      <button id="del" onclick="clearBtn()">AC</button>
+      <button id="backBtn" onclick="backBtn()">CE</button>
+      <button id="leftBracket" onclick="updateDisplay('(')">(</button>
+      <button id="rightBracket" onclick="updateDisplay(')')">)</button>
+
+      <button id="7" onclick="updateDisplay(7)">7</button>
+      <button id="8" onclick="updateDisplay(8)">8</button>
+      <button id="9" onclick="updateDisplay(9)">9</button>
+      <button id="plusBtn" onclick="updateDisplayOperators('+')">+</button>
+
+      <button id="4" onclick="updateDisplay(4)">4</button>
+      <button id="5" onclick="updateDisplay(5)">5</button>
+      <button id="6" onclick="updateDisplay(6)">6</button>
+      <button id="minusBtn" onclick="updateDisplayOperators('-')">-</button>
+
+      <button id="1" onclick="updateDisplay(1)">1</button>
+      <button id="2" onclick="updateDisplay(2)">2</button>
+      <button id="3" onclick="updateDisplay(3)">3</button>
+      <button id="multiplyBtn" onclick="updateDisplayOperators('*')">×</button>
+
+      <button id="dotBtn" onclick="updateDisplay('.')">.</button>
+      <button id="zeroBtn" onclick="updateDisplay(0)">0</button>
+      <button id="equalBtn" onclick="calcOperation()">=</button>
+      <button id="divideBtn" onclick="updateDisplayOperators('/')">÷</button>
+    </div>
+
+  
+    <script src="script.js"></script>
+  </body>
+</html>
