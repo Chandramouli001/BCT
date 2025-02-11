@@ -1,0 +1,72 @@
+body {
+    font-family: 'Open Sans',sans-serif;
+    background-color:#FFF;
+  }
+  
+  div {
+    width:287px;
+    margin:100px auto;
+    border:5px solid black;
+    border-radius: 5%;
+    background:linear-gradient(35deg,#CCFFFF,#FFCCCC);
+  }
+  
+  button {
+    width:60px;
+    height:47px;
+    margin:4px;
+    font-size:25px;
+    border-radius:20%;
+    background-color:white;
+  }
+  
+  
+  button:hover {
+    box-shadow:5px 5px 2px 2px;
+  }
+  
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+    supported by Chrome, Opera and Firefox */
+    }
+  
+  
+  
+  input {
+    max-width:265px;
+    margin:8px;
+    color:white;
+    background-color:black;
+    padding-left:2px;
+    height:60px;
+    font-size:25px;
+  }
+  
+  #del {
+    background-color:#ED1C24;
+  }
+  
+  #backBtn,#leftBracket,#rightBracket {
+    background-color:#FF7F27;
+  }
+  
+  #equalBtn {
+    background-color:green;
+  }
+  
+  #plusBtn, #minusBtn, #multiplyBtn, #divideBtn {
+    background-color:#FFDD00;
+  }
+  
+  #version {
+    width:85px;
+    text-align:center;
+    margin:5px auto;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+  }
